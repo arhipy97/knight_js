@@ -1,0 +1,35 @@
+.wrapper {
+    width: 320px;
+    height: 320px;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+
+/* .wrapper::after {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+.square {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.wrapper .active {
+    background-color: orange;
+    background-size: contain;
+}
+
+.bg-black {
+    background-color: #352c2cba;
+}
+
+.bg-white {
+    background-color: bisque;
+}
+
+.green {
+    background-color: green;
+}
